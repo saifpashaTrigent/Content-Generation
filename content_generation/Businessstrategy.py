@@ -3,10 +3,7 @@ import streamlit as st
 from content_generation.pdfGenerator import generate_pdf_report
 from dotenv import load_dotenv,find_dotenv
 import os
-
-
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 
 

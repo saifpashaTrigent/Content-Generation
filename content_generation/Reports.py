@@ -6,8 +6,7 @@ from dotenv import load_dotenv,find_dotenv
 
 
 
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 
 class ReportGenerator:

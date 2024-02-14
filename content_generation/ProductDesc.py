@@ -5,10 +5,7 @@ import os
 from content_generation.pdfGenerator import generate_pdf_report
 
 
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
-
-openai.api_key="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"
+load_dotenv()
 
 
 class ProductDescription:

@@ -4,9 +4,7 @@ from content_generation.pdfGenerator import generate_pdf_report
 from dotenv import load_dotenv,find_dotenv
 import os
 
-openai.api_key="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"
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 
 

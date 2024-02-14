@@ -4,8 +4,7 @@ import streamlit as st
 import os
 from content_generation.pdfGenerator import generate_pdf_report
 
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 
 class PodcastScript:

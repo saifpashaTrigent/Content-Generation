@@ -1,14 +1,11 @@
 import openai
 import streamlit as st
 from content_generation.pdfGenerator import generate_pdf_report
-from dotenv import load_dotenv,find_dotenv
 import os
 import openai
+from dotenv import load_dotenv
+load_dotenv()
 
-_=load_dotenv(find_dotenv())
-os.getenv("OPENAI_API_KEY")
-
-openai.api_key="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"
 
 
 class ArticleWriter:
