@@ -9,7 +9,7 @@ helps in reducing time consumption.
 - [Podcasts scripts]()
 - [Goal setting and Planning]()
 - [Business strategies]()
-- [Reports]
+- [Reports]()
 - [Product Description]()
 - [Quizzes]()
 
